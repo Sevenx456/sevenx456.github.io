@@ -1,43 +1,41 @@
-body { background-image:url);
-}
-
 h3 {
-     color:#ffffff;
+     color: white;
 }
 
 h1 {
-     color:#ffffff;
+     color: White;
 }
 
 #navbar {
-	position: fixed;
+	position: top;
 	top:10px;
 	left:50%;
-	margin-left:-254px;
+	margin-left:254px;
 }
 
 #header {
 	position: relative;
-	top: -10px;
+	top: 10px;
 	background-color: #3c4543;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
 
 li {
-    float: center;
+    float: left;
     display: inline;
 	border: 2px solid #000000;
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
 	padding: 5px;
-	border-radius: 5px 5px;
+	border-radius: 15px 15px;
 	background-color: #cc0323
 }
 
-a {
+a:hover {
     display: block;
-    width: 60px;
+    width: 100px;
+    color: yellow;
 }
 
 ul {
@@ -45,3 +43,5 @@ ul {
     margin: 2;
     padding: 50px;
 }
+
+p {
